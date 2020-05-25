@@ -4,15 +4,15 @@ import org.openqa.selenium.By;
 import utils.PageBase;
 
 public class AddJobTitle extends PageBase {
-    private static By JobTitleHeader = By.xpath("//h1");
+
     private static By AdminJob = By.id("menu_admin_Job");
     private static By AdminJobTitle = By.id("menu_admin_viewJobTitleList");
+    private static By HrmJobTitle = By.xpath("//*[@id=\"search-results\"]/div[1]/h1");
 
-    public static boolean isDisplayTitleHeader() {
-        return getDriver().findElement(JobTitleHeader).isDisplayed();
-    }
+
 
     private static By AddButton = By.id("btnAdd");
+    private static By SaveButton = By.id(" btnSave");
 
     public static void ClickAdminJob() {
         getDriver().findElement(AdminJob).click();
@@ -27,6 +27,11 @@ public class AddJobTitle extends PageBase {
         getDriver().findElement(AddButton).click();
 
     }
+
+//    public static void ClickSaveButton() {
+//        getDriver().findElement(SaveButton).click();
+//
+//    }
 
     private static By DeleteButton = By.id("btnDelete");
 
@@ -88,6 +93,10 @@ public class AddJobTitle extends PageBase {
 
     public static void ClickButtonSave() {
         getDriver().findElement(ButtonSave).click();
+
+    }
+    public static boolean isHrmJobTitlePageDisplayed() {
+        return getDriver().findElement(HrmJobTitle).isDisplayed();
 
     }
 }

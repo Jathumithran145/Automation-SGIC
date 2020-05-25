@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="748ba683-4822-4cdd-82a4-2105ac99fb41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/AddJobTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/JobTitleTEst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/JathuDashBoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/JathuDashBoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/JatuAddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/JatuAddUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/JathuLoginTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/JathuLoginTestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/AddJobTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/AddJobTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/JobTitleTEst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/JobTitleTEst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pages/JathuDashBoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/JathuDashBoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/JatuAddUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/JatuAddUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/JathuLoginTestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/JathuLoginTestPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JathuLoginTestPage.LoginTest">
+  <component name="RunManager" selected="TestNG.JobTitleTEst.SaveJobTitleTest">
     <configuration name="JathuLoginTestPage.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PageObject-Project-B4" />
       <extension name="coverage">
@@ -75,6 +72,24 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.JathuLoginTestPage" />
       <option name="METHOD_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobTitleTEst.SaveJobTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObject-Project-B4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.JobTitleTEst" />
+      <option name="METHOD_NAME" value="SaveJobTitleTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,31 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReportTest.PimTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PageObject-Project-B4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.PIM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.PIM" />
-      <option name="MAIN_CLASS_NAME" value="test.PIM.ReportTest" />
-      <option name="METHOD_NAME" value="PimTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JobTitleTEst.SaveJobTitleTest" />
         <item itemvalue="TestNG.JathuLoginTestPage.LoginTest" />
         <item itemvalue="TestNG.LoginTest.LoginTest" />
         <item itemvalue="TestNG.LoginTest (1)" />
         <item itemvalue="TestNG.ReportTest" />
-        <item itemvalue="TestNG.ReportTest.PimTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,28 +204,28 @@
     <state x="523" y="84" width="313" height="399" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590392973730" />
     <state x="2471" y="242" width="374" height="414" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589778017683" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589949272877" />
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1590398874130">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1590403709200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590398874130" />
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590403709200" />
     <state width="1394" height="339" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589818085256" />
     <state width="1807" height="2" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589960751968" />
-    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1590398874130">
+    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1590403709200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590398874130" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590403709200" />
     <state width="1394" height="339" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589818085255" />
     <state width="1807" height="2" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589960751967" />
-    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1590398874130">
+    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1590403709200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590398874130" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590403709200" />
     <state width="1394" height="339" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589818085255" />
     <state width="1807" height="2" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589960751967" />
-    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1590398874130">
+    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1590403709200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590398874130" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590403709200" />
     <state width="1394" height="339" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589818085255" />
     <state width="1807" height="2" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589960751967" />
     <state width="1807" height="728" key="GridCell.Tab.1.bottom" timestamp="1589727666185">
