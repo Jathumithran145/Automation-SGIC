@@ -12,7 +12,7 @@ public class JatuAddUser extends PageBase {
     private static By AddPassword = By.id("systemUser_password");
     private static By AddConformPassword = By.id("systemUser_confirmPassword");
     private static By AddClick = By.id("btnSave");
-    private static By HrmAddUserheader =By.className("toggle tiptip");
+    private static By HrmAddUserheader =By.xpath("//*[@id=\"systemUser-information\"]/a");
 
     public static void UserEmployeName ( String jathu){
         getDriver().findElement(AddUserEmployeName).sendKeys(jathu);

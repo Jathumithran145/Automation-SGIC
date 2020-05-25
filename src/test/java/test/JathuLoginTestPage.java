@@ -36,6 +36,8 @@ public class JathuLoginTestPage extends TestBase {
         JatuAddUser.UserAddConformPassword("admin123");
         JatuAddUser.UserAddClick();
 
+
+
     }
 
 }
