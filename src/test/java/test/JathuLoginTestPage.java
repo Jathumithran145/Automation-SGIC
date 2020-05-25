@@ -13,26 +13,27 @@ public class JathuLoginTestPage extends TestBase {
     @Test
     public void LoginTest(){
         softAssert = new SoftAssert();
-       // softAssert.assertTrue(HomePage.isHomePageDisplayed(), "Home Page is not Displayed");
-
-
+       softAssert.assertTrue(JathuLogin.isHrmLoginPageDisplayed(), "Login Page is not Displayed");
         JathuLogin.SetUserName("Admin");
         JathuLogin.Setpass("admin123");
         JathuLogin.ClickLogin();
+
+        softAssert.assertTrue(JathuDashBoad.isHrmDashboardPageDisplayed(), "DashBoard Page is not Displayed");
         JathuDashBoad.ClickAdmin();
         JathuDashBoad.ClickUserManagenment();
         JathuDashBoad.ClickUser();
+
+        softAssert.assertTrue(JatuAddUser.isHrmAddUserPageDisplayed(), "Add User Page is not Displayed");
         JathuDashBoad.ClickAdd();
 
+        /**
+         * Add User Page......
+         */
 
-
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ADD USER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-        JatuAddUser.UserEmployeName("Varman");
-        JatuAddUser.UserUserName("jathumithran");
-        JatuAddUser.UserAddpassword("Jathumithran@123");
-        JatuAddUser.UserAddConformPassword("Jathumithran@123");
+        JatuAddUser.UserEmployeName("Arunsabari");
+        JatuAddUser.UserUserName("John Smith");
+        JatuAddUser.UserAddpassword("admin123");
+        JatuAddUser.UserAddConformPassword("admin123");
         JatuAddUser.UserAddClick();
 
     }

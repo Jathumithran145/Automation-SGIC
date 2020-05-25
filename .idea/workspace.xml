@@ -2,78 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="748ba683-4822-4cdd-82a4-2105ac99fb41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/JathuDashBoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/JathuLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/JatuAddUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/JathuLoginTestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pages/DashboardPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pages/JathuDashBoad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pages/JathuLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pages/JatuAddUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pages/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/utils/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/utils/PageBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/ExcelSheet/Login.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/PageObject-Project-B4.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589175775009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589223341062.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589515770621.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589515793732.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589515827661.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589515880326.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589516322382.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589516344177.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589516356749.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589516368331.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589516380613.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589516393306.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589536360032.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589536397864.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589536428921.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589536465336.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589536538618.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589817999630.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589818008558.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589818017190.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589818029707.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/1589818037806.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/JathuLoginTestPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/LoginData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/LoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/PageLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/plan/report.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/ExcelDataConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/ExtentReportFunctions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/MetricsListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/TestBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1707.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1708.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1710.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1711.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1714.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1715.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1719.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1722.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1738.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1750.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1753.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1819.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1840.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-1915.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-2000.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-2007.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-2018.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-2021.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Metrics-2020May24-2026.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentReportFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentReportFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/JathuDashBoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/JathuDashBoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/JathuLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/JathuLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/JatuAddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/JatuAddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/JathuLoginTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/JathuLoginTestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/JathuLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/JathuLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/JathuLoginTestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/JathuLoginTestPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +34,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../com.automation" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ui-automation-training-complete" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -263,34 +199,34 @@
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="2373" y="198" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589784149223" />
-    <state x="523" y="84" width="313" height="399" key="FileChooserDialogImpl" timestamp="1590386873112">
+    <state x="523" y="84" width="313" height="399" key="FileChooserDialogImpl" timestamp="1590392973730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="523" y="84" width="313" height="399" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590386873112" />
+    <state x="523" y="84" width="313" height="399" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590392973730" />
     <state x="2471" y="242" width="374" height="414" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589778017683" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589949272877" />
-    <state width="1323" height="359" key="GridCell.Tab.0.bottom" timestamp="1590389877461">
+    <state width="1323" height="359" key="GridCell.Tab.0.bottom" timestamp="1590393181897">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="359" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590389877461" />
+    <state width="1323" height="359" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590393181897" />
     <state width="1394" height="339" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589818085256" />
     <state width="1807" height="2" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589960751968" />
-    <state width="1323" height="359" key="GridCell.Tab.0.center" timestamp="1590389877461">
+    <state width="1323" height="359" key="GridCell.Tab.0.center" timestamp="1590393181896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="359" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590389877461" />
+    <state width="1323" height="359" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590393181896" />
     <state width="1394" height="339" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589818085255" />
     <state width="1807" height="2" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589960751967" />
-    <state width="1323" height="359" key="GridCell.Tab.0.left" timestamp="1590389877460">
+    <state width="1323" height="359" key="GridCell.Tab.0.left" timestamp="1590393181895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="359" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590389877460" />
+    <state width="1323" height="359" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590393181895" />
     <state width="1394" height="339" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589818085255" />
     <state width="1807" height="2" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589960751967" />
-    <state width="1323" height="359" key="GridCell.Tab.0.right" timestamp="1590389877461">
+    <state width="1323" height="359" key="GridCell.Tab.0.right" timestamp="1590393181896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="359" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590389877461" />
+    <state width="1323" height="359" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590393181896" />
     <state width="1394" height="339" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1589818085255" />
     <state width="1807" height="2" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1589960751967" />
     <state width="1807" height="728" key="GridCell.Tab.1.bottom" timestamp="1589727666185">

@@ -7,7 +7,7 @@ public class JathuLogin extends PageBase {
     private static By Username = By.name("txtUsername");
     private static By Passworld = By.id("txtPassword");
     private static By LoginClick = By.id("btnLogin");
-
+    private static By HrmHeader =By.id("logInPanelHeading");
 
     public static void SetUserName( String jathu ){
         getDriver().findElement(Username).sendKeys(jathu);
@@ -17,6 +17,10 @@ public class JathuLogin extends PageBase {
     }
     public static void ClickLogin(){
         getDriver().findElement(LoginClick).click();
+
+    }
+    public static boolean isHrmLoginPageDisplayed() {
+        return getDriver().findElement(HrmHeader).isDisplayed();
 
     }
 }
